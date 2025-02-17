@@ -49,9 +49,11 @@ Create a new HMPL template in `src/hmpl/HelloWorld.hmpl`:
 Then, load it into `src/main.js`:
 
 ```javascript
-import HelloWorld from "./hmpl/HelloWorld.hmpl";
+import helloWorld from "./hmpl/HelloWorld.hmpl";
 
-document.body.appendChild(HelloWorld().response);
+const { response } = helloWorld();
+
+document.body.appendChild(response);
 ```
 
 Now, your UI will dynamically render data from the server!
