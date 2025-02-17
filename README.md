@@ -13,6 +13,7 @@ npm install
 ## Project Structure
 
 <!-- TREEVIEW START -->
+
 ```
 hello-hmpl/
 |--mock/
@@ -48,7 +49,7 @@ Create a new HMPL template in `src/hmpl/HelloWorld.hmpl`:
 Then, load it into `src/main.js`:
 
 ```javascript
-import HelloWorld from './hmpl/HelloWorld.hmpl';
+import HelloWorld from "./hmpl/HelloWorld.hmpl";
 
 document.body.appendChild(HelloWorld().response);
 ```
@@ -59,3 +60,9 @@ Now, your UI will dynamically render data from the server!
 
 - [HMPL Docs](https://www.hmpl-lang.dev/hmpl)
 - [Examples](https://www.hmpl-lang.dev/examples)
+
+##
+
+## License
+
+Without license
