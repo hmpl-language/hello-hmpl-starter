@@ -61,8 +61,7 @@ Now, your UI will dynamically render data from the server!
 - [HMPL Docs](https://www.hmpl-lang.dev/hmpl)
 - [Examples](https://www.hmpl-lang.dev/examples)
 
-##
+## Contributors
 
-## License
+This project was created by [Saptarshi Mula](https://github.com/toyaAoi). Many thanks to him!
 
-Without license
