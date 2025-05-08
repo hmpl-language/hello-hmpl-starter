@@ -35,13 +35,20 @@ Create a new HMPL template in `src/hmpl/HelloWorld.hmpl`:
 ```hmpl
 <div>
   <div>
-    {{
-      src: "/api/hello",
-      indicators: [
-        { trigger: "pending", content: "<p>Loading...</p>" },
-        { trigger: "rejected", content: "<p>Error!!</p>" }
+    {{#request
+      src="/api/hello"
+      indicators=[
+        {
+          trigger: "pending",
+          content: "<p>Loading...</p>"
+        },
+        {
+          trigger: "rejected",
+          content: "<p>Error!!</p>;"
+        }
       ]
     }}
+    {{/request}}
   </div>
 </div>
 ```
@@ -60,10 +67,9 @@ Now, your UI will dynamically render data from the server!
 
 ## Learn More
 
-- [HMPL Docs](https://www.hmpl-lang.dev/hmpl)
+- [HMPL Docs](https://www.spec.hmpl-lang.dev)
 - [Examples](https://www.hmpl-lang.dev/examples)
 
 ## Contributors
 
 This project was created by [Saptarshi Mula](https://github.com/toyaAoi). Many thanks to him!
-
