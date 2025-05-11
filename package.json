@@ -19,6 +19,6 @@
     "multer": "1.4.5-lts.1",
     "vite": "^6.1.0",
     "vite-plugin-mock": "^3.0.2",
-    "vite-plugin-hmpl": "^0.0.1"
+    "vite-plugin-hmpl": "^0.0.2"
   }
 }
