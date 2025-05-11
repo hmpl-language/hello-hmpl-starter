@@ -1,0 +1,18 @@
+<div>
+  <div>
+    {{#request
+      src="/api/hello"
+      indicators=[
+        {
+          trigger: "pending",
+          content: "<p>Loading...</p>"
+        },
+        {
+          trigger: "rejected",
+          content: "<p>Error!!</p>;"
+        }
+      ]
+    }}
+    {{/request}}
+  </div>
+</div>

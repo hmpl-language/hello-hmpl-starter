@@ -18,8 +18,10 @@ npm install
 hello-hmpl/
 |--mock/
 |--public/
+|   |--hmpl.png
 |--src/
 |   |--hmpl/
+|   |   |--HelloWorld.hmpl
 |   |--main.js
 |--index.html
 |--package.json
@@ -30,40 +32,13 @@ hello-hmpl/
 
 ## Getting Started
 
-Create a new HMPL template in `src/hmpl/HelloWorld.hmpl`:
+To run the project, use the following command:
 
-```hmpl
-<div>
-  <div>
-    {{#request
-      src="/api/hello"
-      indicators=[
-        {
-          trigger: "pending",
-          content: "<p>Loading...</p>"
-        },
-        {
-          trigger: "rejected",
-          content: "<p>Error!!</p>;"
-        }
-      ]
-    }}
-    {{/request}}
-  </div>
-</div>
+```sh
+npm run dev
 ```
 
-Then, load it into `src/main.js`:
-
-```javascript
-import helloWorld from "./hmpl/HelloWorld.hmpl";
-
-const { response } = helloWorld();
-
-document.body.appendChild(response);
-```
-
-Now, your UI will dynamically render data from the server!
+After this, the application will open in your browser.
 
 ## Learn More
 

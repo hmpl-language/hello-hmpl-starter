@@ -1,6 +1,6 @@
 {
   "name": "hmpl-starter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,12 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hmpl-js": "^3.0.1"
+    "hmpl-js": ">=3.0.1"
   },
   "devDependencies": {
     "@rollup/pluginutils": "^5.1.4",
     "multer": "1.4.5-lts.1",
     "vite": "^6.1.0",
-    "vite-plugin-mock": "^3.0.2"
+    "vite-plugin-mock": "^3.0.2",
+    "vite-plugin-hmpl": "^0.0.1"
   }
 }

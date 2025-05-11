@@ -4,3 +4,4 @@ build
 coverage
 package
 .DS_Store
+package-lock.json
