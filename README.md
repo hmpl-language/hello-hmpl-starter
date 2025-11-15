@@ -42,7 +42,7 @@ After this, the application will open in your browser.
 
 ## Learn More
 
-- [HMPL Docs](https://www.spec.hmpl-lang.dev)
+- [HMPL Docs](https://hmpl-lang.dev/introduction)
 - [Examples](https://www.hmpl-lang.dev/examples)
 
 ## Contributors
